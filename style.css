@@ -1,0 +1,131 @@
+
+.container {
+    max-width: 1000px;
+}
+
+header{
+    background-image: url('assets/fondo1.png');
+    background-size: cover;
+    position: relative;
+    height: 550px;
+}
+.logo{
+    width: 120px;
+}
+
+.row{
+   margin: 0;
+}
+
+
+#row-cursos{
+    background-color: #4C81E5;
+}
+#row-nosotros{
+    background-image: url('./assets/fondo2.png');
+    background-size: cover;
+}
+#row-datos{
+    background-color: #4C81E5;
+    height: 450px;
+}
+#row-servicios{
+    background-image: url('./assets/fondo2.png');
+    background-size: cover;
+}
+#row-frace{
+    background-image: url('assets/fondo3.png');
+    background-position-y: center;
+    background-position-x: center;
+    height: 450px;
+}
+#row-contacto{
+    background-image: url('/assets/fondo2.png');
+    background-size: cover;
+    height: 450px;
+}
+
+/*Footer*/
+footer{
+    background-color: black;
+}
+
+.title-color{
+    color: #4C81E5;
+}
+
+.title{
+    position: absolute;
+    font-size: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn{
+    background-color: #4C81E5;
+    color: white;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#row-cursos img {
+    border-radius: 100px;
+}
+#row-nosotros img, #row-servicios img {
+    width: 300px;
+    border-radius: 230px;
+}
+
+.mi-texto{
+    font-size: 14px;
+}
+
+.circulo{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #B3FBFF;
+}
+.form-control{
+    border-radius: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.bg-light{
+    background-image: url('assets/fondo1.png');
+    background-size: cover;
+    position: relative;
+
+}
+.nav-link{
+    color: white !important; 
+}
+
+@media(max-width: 992px){
+    .bg-light{
+        background-image: url('assets/fondo1.png');
+        background-size: 992px;
+        position: relative;
+    }
+    .navbar-nav{
+        color: white;
+        background-color: #4C81E5;
+        padding: 15px;
+        border: 0px solid;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .nav-link{
+        color: white !important;
+    }
+}
+
+.navbar {
+    z-index: 100;
+}
