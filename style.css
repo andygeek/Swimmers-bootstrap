@@ -34,13 +34,13 @@ header{
     background-size: cover;
 }
 #row-frace{
-    background-image: url('assets/fondo3.png');
+    background-image: url('./assets/fondo3.png');
     background-position-y: center;
     background-position-x: center;
     height: 450px;
 }
 #row-contacto{
-    background-image: url('/assets/fondo2.png');
+    background-image: url('./assets/fondo2.png');
     background-size: cover;
     height: 450px;
 }
