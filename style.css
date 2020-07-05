@@ -4,7 +4,7 @@
 }
 
 header{
-    background-image: url('assets/fondo1.png');
+    background-image: url('./assets/fondo1.png');
     background-size: cover;
     position: relative;
     height: 550px;
@@ -98,7 +98,7 @@ footer a{
 }
 
 .bg-light{
-    background-image: url('assets/fondo1.png');
+    background-image: url('./assets/fondo1.png');
     background-size: cover;
     position: relative;
 
@@ -109,7 +109,7 @@ footer a{
 
 @media(max-width: 992px){
     .bg-light{
-        background-image: url('assets/fondo1.png');
+        background-image: url('./assets/fondo1.png');
         background-size: 992px;
         position: relative;
     }
