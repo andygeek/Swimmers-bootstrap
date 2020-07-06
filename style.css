@@ -1,95 +1,122 @@
-
 .container {
-    max-width: 1000px;
+    max-width: 1100px;
 }
-
-header{
-    background-image: url('./assets/fondo1.png');
+header {
+    background-image: url('assets/fondo1.png');
     background-size: cover;
-    position: relative;
     height: 550px;
-}
-.logo{
-    width: 120px;
-}
-
-.row{
-   margin: 0;
-}
-
-
-#row-cursos{
-    background-color: #4C81E5;
-}
-#row-nosotros{
-    background-image: url('./assets/fondo2.png');
-    background-size: cover;
-}
-#row-datos{
-    background-color: #4C81E5;
-    height: 450px;
-}
-#row-servicios{
-    background-image: url('./assets/fondo2.png');
-    background-size: cover;
-}
-#row-frace{
-    background-image: url('./assets/fondo3.png');
-    background-position-y: center;
-    background-position-x: center;
-    height: 450px;
-}
-#row-contacto{
-    background-image: url('./assets/fondo2.png');
-    background-size: cover;
-    height: 450px;
-}
-
-/*Footer*/
-footer{
-    background-color: black;
+    position: relative;
 }
 
 .title-color{
-    color: #4C81E5;
+    color: #5080E5;
 }
 
-.title{
-    position: absolute;
+.title {
+    color: #5080E5;
     font-size: 45px;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.btn{
-    background-color: #4C81E5;
-    color: white;
+.btn {
+    background-color: #5080E5;
     border-radius: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
+    color: white;
     font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-#row-cursos img {
-    border-radius: 100px;
+.logo{
+    width: 120px;
 }
-#row-nosotros img, #row-servicios img {
+
+#row-cursos{
+    background-color: #5080E5;
+}
+
+.row{
+    margin: 0;
+}
+
+#row-cursos img{
+    border-radius: 50%;
+}
+
+#row-nosotros{
+    background-image: url('assets/fondo2.png');
+    background-size: cover;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#row-nosotros{
+    background-image: url('assets/fondo2.png');
+    background-size: cover;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+#row-servicios{
+    background-image: url('assets/fondo2.png');
+    background-size: cover;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+#row-frace{
+    background-image: url('assets/fondo3.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px !important;
+    padding-bottom: 200px !important;
+}
+#row-contacto{
+    background-image: url('assets/fondo2.png');
+    background-size: cover;
+    padding-top: 140px !important;
+    padding-bottom: 140px !important;
+}
+
+#row-nosotros img{
+    border-radius: 50%;
     width: 300px;
-    border-radius: 230px;
+}
+#row-servicios img{
+    border-radius: 50%;
+    width: 300px;
 }
 
-.mi-texto{
+
+#row-nosotros p{
     font-size: 14px;
 }
 
+#row-servicios p{
+    font-size: 14px;
+}
+
+
+#row-datos{
+    background-color: #5080E5;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
 .circulo{
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    background: #B3FBFF;
+    background-color: #B3FBFF;
 }
+
 .form-control{
-    border-radius: 20px;
+    border-radius: 50px;
+}
+
+footer{
+    background-color: black;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
 }
 
 footer a{
@@ -97,35 +124,14 @@ footer a{
     color: white;
 }
 
-.bg-light{
-    background-image: url('./assets/fondo1.png');
-    background-size: cover;
-    position: relative;
-
-}
-.nav-link{
-    color: white !important; 
-}
-
-@media(max-width: 992px){
-    .bg-light{
-        background-image: url('./assets/fondo1.png');
-        background-size: 992px;
-        position: relative;
-    }
+@media(max-width:992px){
     .navbar-nav{
-        color: white;
-        background-color: #4C81E5;
-        padding: 15px;
-        border: 0px solid;
-        border-bottom-right-radius: 15px;
+        background-color: #5080E5;
         border-bottom-left-radius: 15px;
-    }
-    .nav-link{
-        color: white !important;
+        border-bottom-right-radius: 15px;    
+        padding-left: 20px;    
     }
 }
-
-.navbar {
+nav{
     z-index: 100;
 }
